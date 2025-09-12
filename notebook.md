@@ -5,6 +5,7 @@
   - [What is Flutter](#What-is-Flutter?)
   - [Practice](#practice)
 - [Key terms and Definitions](#key-terms-and-definitions)
+- [Code Definitions](#code-definitions)
 
 ## Flutter Notes
 
@@ -18,13 +19,13 @@
 
 | Term             | Definition                                      | Example / Notes                          |
 |------------------|--------------------------------------------------|-------------------------------------------|
-| Widget           | Basic building block of a flutter app. eveerything is a widget             Text. image, Container,column
-| MaterialApp      | The root of the app. sets up routes and themes.                            Found in main.dart
-| Scaffold         | Provides visual layout - like a header, body, floating button              Each screen uses it                                                                              
-| StatelessWidget  | Predefined paths to navigate between screens.                              ' /','/page2',' /page3' etc.                                                                                          
-| StatefulWidget   | A widget that can change over time                                                                                           
-| Navigator        | Manages screen transitions                                                 Navigator.pushNamed(context, '/page2');                                           
-| AppBar           | Top navigator                                                              Title of each page appears here                               
+| Widget           | Basic building block of a flutter app. eveerything is a widget             |Text. image, Container,column
+| MaterialApp      | The root of the app. sets up routes and themes.                            |Found in main.dart
+| Scaffold         | Provides visual layout - like a header, body, floating button              |Each screen uses it                                                                              
+| StatelessWidget  | Predefined paths to navigate between screens.                              |' /','/page2',' /page3' etc.                                                                                          
+| StatefulWidget   | A widget that can change over time |                                                                                          
+| Navigator        | Manages screen transitions                                                 |Navigator.pushNamed(context, '/page2');                                           
+| AppBar           | Top navigator                                                               |Title of each page appears here                              
 | Column           |                                                                                             
 | Row              |                                                  |                                           |
 | Container        |                                                  |                                           |
@@ -42,7 +43,51 @@
 - How do you align something to the left or right?
 - What widget adds space around content?
 
+| Term | Definition | Base Structure / Syntax | Real Life Example | App Example |
 
+|------|------------|--------------------------|-------------------|-------------|
+
+|Variable| A named container used to store a value that may change. | `var x = 5;` | Exp |  |
+
+|constant| A fixed value that cannot change once set. | `const PI = 3.14;` |layout of a social media platfrom never changes  |  |
+
+|data type| The kind of value a variable holds, like numbers or text. | `int`, `String`, `bool` |  |  |
+
+|string| A sequence of characters used to represent words or text. | `"Hello World"` |  |  |
+
+|intreger| Whole number values. | `int age = 16;` |  |  |
+
+|double| Number values with decimals. | `double age = 16.2;` |  |  |
+
+|boolean| A value that can be true or false. | `bool isLoggedIn = false;` |  |  |
+
+|List| A collection of values in a specific order. | `List<String> names = [];` |  |  |
+
+|null| A special value that means “nothing.” | `String? name = null;` |  |  |
+
+|function| A reusable block of code that performs an action. | `void sayHi() { print("Hi"); }` |  |  |
+
+|parameter| The information passed into a function to change how it works. | `greet(String name)` |  |  |
+
+|      | The result a function gives back. | `return total;` |  |  |
+
+|      | Where a variable or function can be used. | (No set syntax — concept-based) |  |  |
+
+|      | Blueprint for creating objects with specific structure and behavior. | `class Dog {}` |  |  |
+
+|      | A specific version of a class. | `Dog myDog = Dog();` |  |  |
+
+|      | A variable that belongs to a class/object. | `String name;` |  |  |
+
+|      | A function that belongs to a class. | `void bark() {}` |  |  |
+
+|      | A special function used to set up a class when it’s created. | `Dog(this.name);` |  |  |
+
+|      | Hiding the inner workings of code so users only interact with what they need. | (Concept — not specific code) |  |  |
+
+|      | Changing how a built-in or inherited function behaves. | `@override` |  |  |
+
+|      | A function that does not return a value. | `void printMessage() {}` |  |  |
 [Notebook Style Guide](#markdown-style-guide-for-coding-notebooks)
 ## Markdown Style Guide for Coding Notebooks
 
