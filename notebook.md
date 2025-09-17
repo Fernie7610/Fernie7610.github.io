@@ -5,6 +5,7 @@
   - [What is Flutter](#What-is-Flutter?)
   - [Practice](#practice)
 - [Key terms and Definitions](#key-terms-and-definitions)
+- [Layout and Design Widgets](layout-and-design-widgets) 
 - [Code Definitions](#code-definitions)
 
 ## Flutter Notes
@@ -51,43 +52,43 @@
 
 |constant| A fixed value that cannot change once set. | `const PI = 3.14;` |layout of a social media platfrom never changes  |  |
 
-|data type| The kind of value a variable holds, like numbers or text. | `int`, `String`, `bool` |  |  |
+|data type| The kind of value a variable holds, like numbers or text. | `int`, `String`, `bool` |variables in math  |  |
 
-|string| A sequence of characters used to represent words or text. | `"Hello World"` |  |  |
+|string| A sequence of characters used to represent words or text. | `"Hello World"` |010101 code  |  |
 
 |intreger| Whole number values. | `int age = 16;` |  |  |
 
-|double| Number values with decimals. | `double age = 16.2;` |  |  |
+|double| Number values with decimals. | `double age = 16.2;` |streak  |  |
 
 |boolean| A value that can be true or false. | `bool isLoggedIn = false;` |  |  |
 
 |List| A collection of values in a specific order. | `List<String> names = [];` |  |  |
 
-|null| A special value that means “nothing.” | `String? name = null;` |  |  |
+|null| A special value that means “nothing.” | `String? name = null;` |places of unknown information of a person  |  |
 
 |function| A reusable block of code that performs an action. | `void sayHi() { print("Hi"); }` |  |  |
 
 |parameter| The information passed into a function to change how it works. | `greet(String name)` |  |  |
 
-|Return| The result a function gives back. | `return total;` |  |  |
+|Return| The result a function gives back. | `return total;` |give a quarter get a gumball  |  |
 
-|      | Where a variable or function can be used. | (No set syntax — concept-based) |  |  |
+|scope| Where a variable or function can be used. | (No set syntax — concept-based) |  |  |
 
-|      | Blueprint for creating objects with specific structure and behavior. | `class Dog {}` |  |  |
+|class| Blueprint for creating objects with specific structure and behavior. | `class Dog {}` | pencils are used to draw  |  |
 
-|      | A specific version of a class. | `Dog myDog = Dog();` |  |  |
+|Object| A specific version of a class. | `Dog myDog = Dog();` |  |  |
 
-|      | A variable that belongs to a class/object. | `String name;` |  |  |
+|Property| A variable that belongs to a class/object. | `String name;` |  |  |
 
-|      | A function that belongs to a class. | `void bark() {}` |  |  |
+|Method| A function that belongs to a class. | `void bark() {}` |we wouldnt want plants meowing |  |
 
-|      | A special function used to set up a class when it’s created. | `Dog(this.name);` |  |  |
+|constructor| A special function used to set up a class when it’s created. | `Dog(this.name);` |  |  |
 
-|      | Hiding the inner workings of code so users only interact with what they need. | (Concept — not specific code) |  |  |
+|Abstraction| Hiding the inner workings of code so users only interact with what they need. | (Concept — not specific code) |ASCII  |posting a video  |
 
-|      | Changing how a built-in or inherited function behaves. | `@override` |  |  |
+|Override| Changing how a built-in or inherited function behaves. | `@override` |diffrent characters in video games|  |
 
-|      | A function that does not return a value. | `void printMessage() {}` |  |  |
+|Void| A function that does not return a value. | `void printMessage() {}` |exiting an area  |  |
 [Notebook Style Guide](#markdown-style-guide-for-coding-notebooks)
 ## Markdown Style Guide for Coding Notebooks
 
