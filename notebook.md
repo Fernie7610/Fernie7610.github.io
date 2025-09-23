@@ -103,7 +103,7 @@ jubilant space funicular
 
 |void main| A function that runs when your app starts. It tells Flutter what app to show. | `void main() => runApp(MyApp());` |  |  |
 
-|      | The widget that sets up your whole app’s look and navigation. | `MaterialApp(...)` |  |  |
+|materialApp| The widget that sets up your whole app’s look and navigation. | `MaterialApp(...)` |  |  |
 
 |scaffold | A widget that gives you the basic layout: background, navigation bar, floating button, etc. | `Scaffold(...)` |  |  |
 
@@ -123,9 +123,9 @@ jubilant space funicular
 
 |stateless widget| A class that creates widgets that never change. Good for static screens. | `class HomeScreen extends StatelessWidget` |  |  |
 
-|      | A class for widgets that can change while the app is running. | `class MyWidget extends StatefulWidget` |  |  |
+|stateful widget| A class for widgets that can change while the app is running. | `class MyWidget extends StatefulWidget` |  |  |
 
-|      | Lets you move from one screen to another using route names. | `Navigator.pushNamed(context, '/about')` |  |  |
+|pushnamed| Lets you move from one screen to another using route names. | `Navigator.pushNamed(context, '/about')` |  |  |
 
 |padding| Makes space around a widget inside its container. | `Padding(padding: EdgeInsets.all(8.0), child: ...)` |  |  |
 
