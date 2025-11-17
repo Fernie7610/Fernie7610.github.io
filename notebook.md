@@ -39,6 +39,9 @@ jubilant space funicular
 
 ---
 
+
+<img width="950" height="502" alt="image" src="https://github.com/user-attachments/assets/d7ee9fae-8ce6-46b0-b583-a4de84391fad" />
+
 ### Layout and Design Widgets
 - How do you center a widget?
 - How do you align something to the left or right?
